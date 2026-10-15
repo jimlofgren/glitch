@@ -126,9 +126,7 @@ which renders one frame even when the tab is in the background.
 
 ## Deploy
 
-`vite.config.ts` uses a relative base path, so the built `dist/` folder works
-from any subdirectory. `.github/workflows/deploy.yml` builds and publishes to
-GitHub Pages on every push to `main`: in the repository settings, set Pages to
-"GitHub Actions" as the source once and it takes care of the rest.
-
-`dist/` is wiped on every build, so never store originals there.
+The site is deployed by Vercel on every push; the build command is
+`npm run build` and the output directory is `dist/`. `vite.config.ts` uses a
+relative base path, so the build also works from any subdirectory on other
+hosts. `dist/` is wiped on every build, so never store originals there.
