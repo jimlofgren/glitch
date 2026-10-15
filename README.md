@@ -51,7 +51,8 @@ Compile errors show in a red overlay with line numbers relative to your code.
 
 ## Titles
 
-Each song has a `title` in `src/config.ts` (dates work well). It is shown at
+Each song has a `title` in `src/config.ts` (dates work well) and an optional
+`start` in seconds for where the first play begins; loops restart from zero. It is shown at
 the bottom-left and swaps whenever the active song changes.
 
 ## Mozayk frames

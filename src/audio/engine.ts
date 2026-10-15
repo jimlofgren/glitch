@@ -8,6 +8,7 @@ export interface Levels {
 
 export interface SongAudio {
   src: string
+  start: number
   element: HTMLAudioElement
   prefetched: boolean
   filter: BiquadFilterNode
@@ -58,18 +59,21 @@ export class AudioEngine {
   private muted = false
   readonly onError: (message: string) => void
 
-  constructor(sources: string[], onError: (message: string) => void = () => undefined) {
+  constructor(sources: { src: string; start?: number }[], onError: (message: string) => void = () => undefined) {
     this.onError = onError
     this.context = new AudioContext()
     this.master = this.context.createGain()
     this.master.connect(this.context.destination)
-    this.songs = sources.map((src) => this.createSong(src))
+    this.songs = sources.map((source) => this.createSong(source.src, source.start ?? 0))
   }
 
-  private createSong(src: string): SongAudio {
-    const element = new Audio(src)
+  private createSong(src: string, start: number): SongAudio {
+    const element = new Audio(withStart(src, start))
     element.loop = true
     element.preload = 'metadata'
+    element.addEventListener('loadedmetadata', () => {
+      if (start > 0 && element.currentTime < start - 0.5) element.currentTime = start
+    })
     element.crossOrigin = 'anonymous'
     element.addEventListener('error', () => {
       const code = element.error?.code ?? 0
@@ -95,6 +99,7 @@ export class AudioEngine {
 
     return {
       src,
+      start,
       element,
       prefetched: false,
       filter,
@@ -127,7 +132,7 @@ export class AudioEngine {
         if (!response.ok) throw new Error(`HTTP ${response.status}`)
         const blob = await response.blob()
         if (song.targetGain > AUDIBLE_THRESHOLD || !song.element.paused) continue
-        song.element.src = URL.createObjectURL(blob)
+        song.element.src = withStart(URL.createObjectURL(blob), song.start)
         song.prefetched = true
       } catch (error) {
         this.onError(`Could not prefetch ${song.src} (${error instanceof Error ? error.message : String(error)})`)
@@ -241,6 +246,10 @@ export class AudioEngine {
       song.levels.beat *= Math.exp(-dt / BEAT_DECAY)
     }
   }
+}
+
+function withStart(url: string, start: number): string {
+  return start > 0 ? `${url}#t=${start}` : url
 }
 
 function spectralFlux(tracker: FluxTracker, frequency: Uint8Array, from: number, to: number): number {
