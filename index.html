@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Three songs, three audio-reactive shaders. Scroll to move between them." />
+    <meta name="theme-color" content="#050507" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23050507'/%3E%3Cpolygon points='30,20 80,50 30,80' fill='%23f2f2f2'/%3E%3C/svg%3E" />
+    <title>;:m__</title>
+  </head>
+  <body>
+    <canvas id="gl"></canvas>
+    <main id="sections"></main>
+    <div id="hud" class="idle">
+      <input id="glitch" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Glitch amount" />
+      <input id="slider" class="inactive" type="range" min="0" max="1" step="0.01" value="0" aria-label="Slider" />
+      <div id="levels" aria-hidden="true"><i></i><i></i><i></i></div>
+      <button id="play" type="button" aria-label="Play">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <polygon id="play-icon" points="30,20 80,50 30,80" />
+          <g id="pause-icon" hidden>
+            <rect x="28" y="22" width="16" height="56" />
+            <rect x="56" y="22" width="16" height="56" />
+          </g>
+        </svg>
+      </button>
+    </div>
+    <span id="fps" hidden></span>
+    <pre id="shader-errors" hidden></pre>
+    <p id="fallback" hidden></p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

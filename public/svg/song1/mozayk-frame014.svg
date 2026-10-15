@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#000000"/>
+<rect x="255" y="0" width="285" height="120" fill="#404040"/>
+  <rect x="735" y="0" width="345" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1125 0) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1320" y="0" width="120" height="255" fill="#000000"/>
+  <rect x="1455" y="0" width="120" height="195" fill="#000000"/>
+  <rect x="1575" y="0" width="165" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1755 0) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="105" y="15" width="120" height="270" fill="#000000"/>
+  <rect x="555" y="15" width="180" height="120" fill="#000000"/>
+  <rect x="1245" y="15" width="75" height="150" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1875 15) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="240" y="30" width="15" height="120" fill="#000000"/>
+  <rect x="1080" y="30" width="45" height="180" fill="#000000"/>
+  <rect x="1740" y="30" width="15" height="210" fill="#000000"/>
+  <rect x="30" y="45" width="75" height="225" fill="#000000"/>
+  <rect x="1890" y="60" width="30" height="255" fill="#000000"/>
+  <rect x="0" y="105" width="30" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(540 120) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(840 120) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1020" y="120" width="60" height="120" fill="#000000"/>
+  <rect x="1200" y="120" width="45" height="120" fill="#404040"/>
+  <rect x="1575" y="120" width="165" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(450 135) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1845" y="135" width="45" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(330 150) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(570 150) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="990" y="150" width="30" height="120" fill="#000000"/>
+  <rect x="300" y="165" width="30" height="120" fill="#000000"/>
+  <rect x="810" y="165" width="30" height="120" fill="#808080"/>
+  <rect x="1290" y="165" width="30" height="120" fill="#000000"/>
+  <rect x="1800" y="165" width="45" height="240" fill="#000000"/>
+  <rect x="975" y="180" width="15" height="120" fill="#000000"/>
+  <rect x="735" y="195" width="75" height="120" fill="#000000"/>
+  <rect x="1125" y="195" width="75" height="120" fill="#000000"/>
+  <rect x="1245" y="195" width="45" height="270" fill="#000000"/>
+  <rect x="1455" y="195" width="120" height="285" fill="#000000"/>
+  <rect x="1110" y="210" width="15" height="120" fill="#808080"/>
+  <rect x="1770" y="210" width="30" height="300" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(855 240) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1020" y="240" width="90" height="240" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1620 240) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1740 240) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1320" y="255" width="135" height="120" fill="#000000"/>
+  <rect x="1575" y="255" width="45" height="210" fill="#000000"/>
+  <rect x="60" y="270" width="45" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(450 270) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(570 270) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1200" y="270" width="45" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1740 270) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="315" y="285" width="135" height="120" fill="#000000"/>
+  <rect x="705" y="300" width="30" height="225" fill="#000000"/>
+  <rect x="825" y="300" width="30" height="120" fill="#808080"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(975 300) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1740" y="300" width="30" height="120" fill="#000000"/>
+  <rect x="120" y="315" width="165" height="120" fill="#000000"/>
+  <rect x="765" y="315" width="60" height="285" fill="#000000"/>
+  <rect x="1140" y="315" width="60" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1860 345) scale(0.234375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1680" y="360" width="60" height="120" fill="#000000"/>
+  <rect x="750" y="375" width="15" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(975 375) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1635" y="375" width="45" height="150" fill="#000000"/>
+  <rect x="15" y="390" width="105" height="300" fill="#000000"/>
+  <rect x="525" y="390" width="120" height="165" fill="#000000"/>
+  <rect x="900" y="390" width="75" height="120" fill="#808080"/>
+  <rect x="1110" y="390" width="30" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1200 390) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1425 390) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1620" y="390" width="15" height="120" fill="#808080"/>
+  <rect x="495" y="405" width="30" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(690 405) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1320" y="405" width="105" height="255" fill="#808080"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(450 420) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(645 420) scale(0.234375)" fill-rule="evenodd" fill="#808080"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(825 420) scale(0.29296875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1740 420) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1215" y="435" width="30" height="120" fill="#404040"/>
+  <rect x="195" y="450" width="120" height="240" fill="#000000"/>
+  <rect x="735" y="450" width="15" height="180" fill="#000000"/>
+  <rect x="1005" y="450" width="15" height="120" fill="#000000"/>
+  <rect x="1140" y="450" width="75" height="270" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1755 450) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1905" y="450" width="15" height="120" fill="#000000"/>
+  <rect x="0" y="465" width="15" height="120" fill="#000000"/>
+  <rect x="420" y="465" width="75" height="300" fill="#000000"/>
+  <rect x="1290" y="465" width="30" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1800 465) scale(0.41015625)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1245" y="480" width="45" height="120" fill="#404040"/>
+  <rect x="1530" y="480" width="90" height="240" fill="#000000"/>
+  <rect x="1710" y="480" width="60" height="210" fill="#000000"/>
+  <rect x="1065" y="495" width="45" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1485 495) scale(0.17578125)" fill-rule="evenodd" fill="#404040"/>
+  <rect x="1680" y="495" width="30" height="120" fill="#000000"/>
+  <rect x="960" y="510" width="45" height="225" fill="#000000"/>
+  <rect x="1440" y="510" width="45" height="165" fill="#000000"/>
+  <rect x="1770" y="510" width="30" height="120" fill="#000000"/>
+  <rect x="180" y="525" width="15" height="195" fill="#000000"/>
+  <rect x="375" y="525" width="45" height="165" fill="#000000"/>
+  <rect x="495" y="525" width="30" height="285" fill="#000000"/>
+  <rect x="690" y="525" width="45" height="120" fill="#000000"/>
+  <rect x="750" y="525" width="15" height="120" fill="#000000"/>
+  <rect x="1050" y="525" width="15" height="120" fill="#000000"/>
+  <rect x="1635" y="525" width="45" height="120" fill="#808080"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(840 540) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1125 540) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1620" y="540" width="15" height="120" fill="#808080"/>
+  <rect x="165" y="555" width="15" height="210" fill="#000000"/>
+  <rect x="660" y="555" width="30" height="285" fill="#000000"/>
+  <rect x="555" y="570" width="105" height="120" fill="#000000"/>
+  <rect x="1035" y="570" width="15" height="195" fill="#000000"/>
+  <rect x="1230" y="570" width="15" height="120" fill="#000000"/>
+  <rect x="1425" y="570" width="15" height="195" fill="#000000"/>
+  <rect x="1860" y="570" width="60" height="120" fill="#000000"/>
+  <rect x="150" y="585" width="15" height="180" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1485 585) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1005" y="600" width="30" height="120" fill="#000000"/>
+  <rect x="1245" y="600" width="75" height="225" fill="#404040"/>
+  <rect x="135" y="615" width="15" height="210" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(825 615) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1080" y="615" width="60" height="120" fill="#000000"/>
+  <rect x="1695" y="615" width="15" height="120" fill="#000000"/>
+  <rect x="1830" y="615" width="30" height="270" fill="#404040"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(120 630) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="735" y="630" width="15" height="120" fill="#C8C8C8"/>
+  <rect x="1215" y="630" width="15" height="120" fill="#000000"/>
+  <rect x="1815" y="630" width="15" height="255" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1785 645) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(315 660) scale(0.234375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="840" y="660" width="120" height="270" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1515 660) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1635" y="660" width="60" height="195" fill="#000000"/>
+  <rect x="825" y="675" width="15" height="225" fill="#404040"/>
+  <rect x="1350" y="675" width="75" height="120" fill="#C8C8C8"/>
+  <rect x="1515" y="675" width="15" height="120" fill="#000000"/>
+  <rect x="1770" y="675" width="45" height="255" fill="#808080"/>
+  <rect x="210" y="690" width="105" height="180" fill="#000000"/>
+  <rect x="600" y="690" width="60" height="210" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1620 690) scale(0.05859375)" fill-rule="evenodd" fill="#808080"/>
+  <rect x="405" y="705" width="15" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(555 705) scale(0.17578125)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="690" y="705" width="45" height="120" fill="#000000"/>
+  <rect x="1050" y="705" width="30" height="120" fill="#000000"/>
+  <rect x="1440" y="705" width="75" height="210" fill="#000000"/>
+  <rect x="1620" y="705" width="15" height="255" fill="#000000"/>
+  <rect x="1335" y="720" width="15" height="120" fill="#000000"/>
+  <rect x="1020" y="735" width="15" height="120" fill="#000000"/>
+  <rect x="1125" y="735" width="90" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1530 735) scale(0.3515625)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1695" y="735" width="75" height="210" fill="#404040"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1860 735) scale(0.234375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1215 750) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="735" y="765" width="90" height="120" fill="#000000"/>
+  <rect x="1005" y="780" width="15" height="120" fill="#000000"/>
+  <rect x="1215" y="780" width="30" height="255" fill="#808080"/>
+  <rect x="375" y="795" width="30" height="165" fill="#000000"/>
+  <rect x="555" y="795" width="45" height="255" fill="#000000"/>
+  <rect x="1095" y="795" width="30" height="195" fill="#000000"/>
+  <rect x="1425" y="795" width="15" height="120" fill="#000000"/>
+  <rect x="1905" y="795" width="15" height="120" fill="#000000"/>
+  <rect x="195" y="810" width="15" height="120" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(360 810) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="990" y="810" width="15" height="120" fill="#000000"/>
+  <rect x="1380" y="810" width="45" height="210" fill="#000000"/>
+  <rect x="1890" y="810" width="15" height="195" fill="#000000"/>
+  <rect x="420" y="825" width="135" height="120" fill="#000000"/>
+  <rect x="1065" y="825" width="30" height="225" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1245 825) scale(0.3515625)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1560 825) scale(0.234375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1860 825) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="105" y="840" width="90" height="120" fill="#000000"/>
+  <rect x="330" y="840" width="45" height="210" fill="#000000"/>
+  <rect x="405" y="840" width="15" height="180" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(660 840) scale(0.29296875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1050" y="840" width="15" height="150" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1545 840) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="960" y="855" width="30" height="180" fill="#000000"/>
+  <rect x="1020" y="855" width="30" height="105" fill="#000000"/>
+  <rect x="1365" y="855" width="15" height="225" fill="#000000"/>
+  <rect x="1650" y="855" width="45" height="105" fill="#000000"/>
+  <rect x="1860" y="855" width="30" height="195" fill="#000000"/>
+  <rect x="690" y="930" width="180" height="120" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1575 960) scale(0.46875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="105" y="990" width="150" height="90" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(300 1050) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="585" y="1050" width="120" height="30" fill="#000000"/>
+  <rect x="1020" y="1050" width="120" height="30" fill="#000000"/>
+  <rect x="1695" y="1050" width="105" height="30" fill="#808080"/>
+  <rect x="360" y="1065" width="225" height="15" fill="#000000"/>
+  <rect x="720" y="1065" width="150" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(105 0) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="180" y="0" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(195 0) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="615" y="0" width="15" height="15" fill="#C8C8C8"/>
+  <rect x="630" y="0" width="15" height="15" fill="#000000"/>
+  <rect x="690" y="0" width="15" height="15" fill="#000000"/>
+  <rect x="1260" y="0" width="15" height="15" fill="#000000"/>
+  <rect x="1440" y="0" width="15" height="15" fill="#000000"/>
+  <rect x="0" y="15" width="30" height="15" fill="#000000"/>
+  <rect x="225" y="30" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1440 30) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1875" y="60" width="15" height="15" fill="#000000"/>
+  <rect x="225" y="75" width="15" height="15" fill="#000000"/>
+  <rect x="1440" y="75" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1875 90) scale(0.05859375)" fill-rule="evenodd" fill="#404040"/>
+  <rect x="255" y="120" width="15" height="15" fill="#000000"/>
+  <rect x="360" y="120" width="15" height="15" fill="#000000"/>
+  <rect x="450" y="120" width="15" height="15" fill="#000000"/>
+  <rect x="465" y="120" width="15" height="15" fill="#000000"/>
+  <rect x="510" y="120" width="15" height="15" fill="#000000"/>
+  <rect x="765" y="120" width="15" height="45" fill="#000000"/>
+  <rect x="795" y="120" width="15" height="30" fill="#000000"/>
+  <rect x="1125" y="120" width="15" height="45" fill="#000000"/>
+  <rect x="1140" y="120" width="15" height="45" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1860 120) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(330 135) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="420" y="135" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(600 135) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="615" y="135" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(975 135) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1005 135) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1185" y="135" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(690 150) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(750 150) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="825" y="150" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1440 150) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1815" y="150" width="15" height="15" fill="#000000"/>
+  <rect x="750" y="165" width="15" height="30" fill="#000000"/>
+  <rect x="765" y="165" width="15" height="30" fill="#000000"/>
+  <rect x="795" y="165" width="15" height="15" fill="#000000"/>
+  <rect x="1155" y="165" width="15" height="30" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1260 165) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1770 165) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="285" y="180" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(720 180) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="780" y="180" width="15" height="15" fill="#000000"/>
+  <rect x="1170" y="180" width="15" height="15" fill="#000000"/>
+  <rect x="1185" y="180" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1755 180) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1440" y="195" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(255 210) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="705" y="210" width="15" height="30" fill="#000000"/>
+  <rect x="1755" y="210" width="15" height="15" fill="#000000"/>
+  <rect x="690" y="225" width="15" height="15" fill="#000000"/>
+  <rect x="1755" y="225" width="15" height="15" fill="#000000"/>
+  <rect x="255" y="240" width="45" height="30" fill="#404040"/>
+  <rect x="690" y="240" width="30" height="45" fill="#000000"/>
+  <rect x="1215" y="240" width="15" height="30" fill="#000000"/>
+  <rect x="1440" y="240" width="15" height="15" fill="#000000"/>
+  <rect x="1575" y="240" width="15" height="15" fill="#000000"/>
+  <rect x="1590" y="240" width="15" height="15" fill="#000000"/>
+  <rect x="1875" y="255" width="15" height="15" fill="#808080"/>
+  <rect x="435" y="270" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(990 270) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="270" y="285" width="30" height="15" fill="#000000"/>
+  <rect x="705" y="285" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1305 285) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1860" y="285" width="30" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(45 300) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="150" y="300" width="15" height="15" fill="#000000"/>
+  <rect x="180" y="300" width="15" height="15" fill="#000000"/>
+  <rect x="195" y="300" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(210 300) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="690" y="300" width="15" height="15" fill="#000000"/>
+  <rect x="810" y="300" width="15" height="15" fill="#000000"/>
+  <rect x="1860" y="300" width="30" height="15" fill="#000000"/>
+  <rect x="1875" y="315" width="30" height="15" fill="#C8C8C8"/>
+  <rect x="1905" y="315" width="15" height="15" fill="#000000"/>
+  <rect x="0" y="330" width="30" height="45" fill="#C8C8C8"/>
+  <rect x="30" y="330" width="30" height="30" fill="#000000"/>
+  <rect x="300" y="330" width="15" height="15" fill="#000000"/>
+  <rect x="735" y="330" width="15" height="30" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1290 330) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1305" y="330" width="15" height="15" fill="#808080"/>
+  <rect x="1845" y="330" width="15" height="15" fill="#000000"/>
+  <rect x="1860" y="330" width="15" height="15" fill="#000000"/>
+  <rect x="1890" y="330" width="15" height="15" fill="#000000"/>
+  <rect x="1005" y="345" width="15" height="15" fill="#000000"/>
+  <rect x="750" y="360" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(960 360) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(975 360) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1620" y="360" width="15" height="15" fill="#000000"/>
+  <rect x="1845" y="360" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(885 375) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="900" y="375" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1395 375) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1440" y="375" width="15" height="15" fill="#000000"/>
+  <rect x="690" y="390" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(870 390) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1290" y="390" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1395 390) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1410" y="390" width="15" height="15" fill="#000000"/>
+  <rect x="1845" y="390" width="15" height="15" fill="#000000"/>
+  <rect x="360" y="405" width="15" height="15" fill="#000000"/>
+  <rect x="645" y="405" width="15" height="15" fill="#000000"/>
+  <rect x="870" y="405" width="15" height="15" fill="#000000"/>
+  <rect x="885" y="405" width="15" height="15" fill="#000000"/>
+  <rect x="1830" y="405" width="15" height="45" fill="#000000"/>
+  <rect x="1845" y="405" width="45" height="15" fill="#000000"/>
+  <rect x="1890" y="405" width="30" height="30" fill="#000000"/>
+  <rect x="390" y="420" width="15" height="45" fill="#000000"/>
+  <rect x="990" y="420" width="30" height="15" fill="#000000"/>
+  <rect x="1800" y="420" width="30" height="15" fill="#000000"/>
+  <rect x="1845" y="420" width="15" height="30" fill="#000000"/>
+  <rect x="375" y="435" width="15" height="15" fill="#000000"/>
+  <rect x="1170" y="435" width="15" height="15" fill="#808080"/>
+  <rect x="1425" y="435" width="30" height="15" fill="#000000"/>
+  <rect x="1860" y="435" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1875 435) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="990" y="450" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1425 450) scale(0.05859375)" fill-rule="evenodd" fill="#808080"/>
+  <rect x="1800" y="450" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1860 450) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="360" y="465" width="15" height="45" fill="#000000"/>
+  <rect x="1575" y="465" width="15" height="15" fill="#000000"/>
+  <rect x="1605" y="465" width="15" height="15" fill="#000000"/>
+  <rect x="390" y="480" width="30" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1020 480) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1050" y="480" width="15" height="15" fill="#000000"/>
+  <rect x="1455" y="480" width="15" height="15" fill="#000000"/>
+  <rect x="1485" y="480" width="15" height="15" fill="#000000"/>
+  <rect x="660" y="495" width="30" height="15" fill="#000000"/>
+  <rect x="825" y="495" width="45" height="15" fill="#000000"/>
+  <rect x="870" y="495" width="30" height="30" fill="#808080"/>
+  <rect x="1440" y="495" width="15" height="15" fill="#000000"/>
+  <rect x="1455" y="495" width="15" height="15" fill="#000000"/>
+  <rect x="150" y="510" width="15" height="15" fill="#000000"/>
+  <rect x="750" y="510" width="15" height="15" fill="#404040"/>
+  <rect x="855" y="510" width="15" height="15" fill="#000000"/>
+  <rect x="915" y="510" width="30" height="30" fill="#000000"/>
+  <rect x="1020" y="510" width="15" height="15" fill="#000000"/>
+  <rect x="1425" y="510" width="15" height="15" fill="#000000"/>
+  <rect x="840" y="525" width="15" height="15" fill="#000000"/>
+  <rect x="1620" y="525" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(645 540) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(825 540) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1425" y="540" width="15" height="15" fill="#000000"/>
+  <rect x="645" y="555" width="15" height="15" fill="#000000"/>
+  <rect x="1230" y="555" width="15" height="15" fill="#000000"/>
+  <rect x="1425" y="555" width="15" height="15" fill="#000000"/>
+  <rect x="150" y="570" width="15" height="15" fill="#000000"/>
+  <rect x="825" y="570" width="15" height="15" fill="#000000"/>
+  <rect x="1020" y="570" width="15" height="15" fill="#000000"/>
+  <rect x="1125" y="570" width="15" height="15" fill="#000000"/>
+  <rect x="1485" y="570" width="15" height="15" fill="#000000"/>
+  <rect x="1515" y="570" width="15" height="15" fill="#000000"/>
+  <rect x="1800" y="570" width="45" height="30" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1845 570) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1020" y="585" width="15" height="15" fill="#000000"/>
+  <rect x="825" y="600" width="15" height="15" fill="#000000"/>
+  <rect x="1125" y="600" width="15" height="15" fill="#000000"/>
+  <rect x="1830" y="600" width="15" height="15" fill="#000000"/>
+  <rect x="360" y="615" width="15" height="15" fill="#404040"/>
+  <rect x="525" y="615" width="30" height="30" fill="#000000"/>
+  <rect x="810" y="630" width="30" height="15" fill="#000000"/>
+  <rect x="1485" y="630" width="15" height="30" fill="#000000"/>
+  <rect x="1785" y="630" width="15" height="15" fill="#000000"/>
+  <rect x="1800" y="630" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(345 645) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="360" y="645" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1050 645) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1650 645) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1665 645) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="705" y="660" width="30" height="30" fill="#000000"/>
+  <rect x="825" y="660" width="15" height="15" fill="#000000"/>
+  <rect x="1050" y="660" width="30" height="15" fill="#000000"/>
+  <rect x="1365" y="660" width="15" height="15" fill="#000000"/>
+  <rect x="1380" y="660" width="15" height="15" fill="#000000"/>
+  <rect x="1395" y="660" width="15" height="15" fill="#000000"/>
+  <rect x="1500" y="660" width="15" height="15" fill="#000000"/>
+  <rect x="1620" y="675" width="15" height="15" fill="#404040"/>
+  <rect x="30" y="690" width="90" height="15" fill="#000000"/>
+  <rect x="750" y="690" width="45" height="30" fill="#000000"/>
+  <rect x="795" y="690" width="30" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1320 690) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1440 690) scale(0.05859375)" fill-rule="evenodd" fill="#808080"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1455 690) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1470 690) scale(0.05859375)" fill-rule="evenodd" fill="#404040"/>
+  <rect x="1500" y="690" width="15" height="15" fill="#000000"/>
+  <rect x="1740" y="690" width="30" height="30" fill="#808080"/>
+  <rect x="1890" y="690" width="15" height="30" fill="#000000"/>
+  <rect x="45" y="705" width="15" height="60" fill="#000000"/>
+  <rect x="810" y="705" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1320 705) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1335 705) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1875" y="705" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(180 720) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="315" y="720" width="60" height="60" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(390 720) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="780" y="720" width="30" height="15" fill="#000000"/>
+  <rect x="1020" y="720" width="15" height="15" fill="#000000"/>
+  <rect x="1575" y="720" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1590 720) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1605" y="720" width="15" height="15" fill="#000000"/>
+  <rect x="1710" y="720" width="15" height="15" fill="#000000"/>
+  <rect x="1740" y="720" width="15" height="15" fill="#000000"/>
+  <rect x="1755" y="720" width="15" height="15" fill="#000000"/>
+  <rect x="1905" y="720" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(60 735) scale(0.05859375)" fill-rule="evenodd" fill="#404040"/>
+  <rect x="1230" y="735" width="15" height="15" fill="#000000"/>
+  <rect x="525" y="750" width="30" height="45" fill="#000000"/>
+  <rect x="750" y="750" width="15" height="15" fill="#000000"/>
+  <rect x="765" y="750" width="15" height="15" fill="#000000"/>
+  <rect x="810" y="750" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(960 750) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(975 750) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="990" y="750" width="30" height="30" fill="#404040"/>
+  <rect x="1080" y="750" width="30" height="15" fill="#000000"/>
+  <rect x="75" y="765" width="45" height="30" fill="#808080"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(570 765) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="45" y="780" width="15" height="30" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1035 780) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(150 795) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1080" y="795" width="15" height="15" fill="#000000"/>
+  <rect x="1365" y="795" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1515 795) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(45 810) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(120 810) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="330" y="810" width="30" height="30" fill="#000000"/>
+  <rect x="495" y="810" width="15" height="15" fill="#000000"/>
+  <rect x="510" y="810" width="15" height="15" fill="#000000"/>
+  <rect x="540" y="810" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(960 810) scale(0.1171875)" fill-rule="evenodd" fill="#404040"/>
+  <rect x="1350" y="810" width="30" height="15" fill="#000000"/>
+  <rect x="1515" y="810" width="15" height="15" fill="#000000"/>
+  <rect x="150" y="825" width="15" height="15" fill="#000000"/>
+  <rect x="1035" y="825" width="15" height="15" fill="#000000"/>
+  <rect x="1050" y="825" width="15" height="15" fill="#000000"/>
+  <rect x="1350" y="825" width="15" height="30" fill="#000000"/>
+  <rect x="1365" y="825" width="15" height="15" fill="#000000"/>
+  <rect x="1515" y="825" width="15" height="15" fill="#000000"/>
+  <rect x="1515" y="840" width="30" height="15" fill="#000000"/>
+  <rect x="315" y="855" width="15" height="15" fill="#000000"/>
+  <rect x="1185" y="855" width="15" height="30" fill="#000000"/>
+  <rect x="1335" y="855" width="30" height="30" fill="#000000"/>
+  <rect x="1635" y="855" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(270 870) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1515" y="870" width="15" height="45" fill="#000000"/>
+  <rect x="1530" y="870" width="15" height="30" fill="#000000"/>
+  <rect x="1635" y="870" width="15" height="15" fill="#404040"/>
+  <rect x="90" y="885" width="15" height="15" fill="#000000"/>
+  <rect x="210" y="885" width="60" height="15" fill="#000000"/>
+  <rect x="300" y="885" width="15" height="30" fill="#000000"/>
+  <rect x="750" y="885" width="15" height="45" fill="#808080"/>
+  <rect x="1155" y="885" width="15" height="60" fill="#000000"/>
+  <rect x="1185" y="885" width="30" height="15" fill="#000000"/>
+  <rect x="1560" y="885" width="45" height="15" fill="#000000"/>
+  <rect x="1845" y="885" width="15" height="15" fill="#808080"/>
+  <rect x="45" y="900" width="30" height="60" fill="#000000"/>
+  <rect x="90" y="900" width="15" height="15" fill="#000000"/>
+  <rect x="285" y="900" width="15" height="15" fill="#000000"/>
+  <rect x="735" y="900" width="15" height="15" fill="#000000"/>
+  <rect x="780" y="900" width="15" height="30" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1005 900) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1200" y="900" width="15" height="15" fill="#000000"/>
+  <rect x="1335" y="900" width="30" height="15" fill="#000000"/>
+  <rect x="1545" y="900" width="45" height="15" fill="#808080"/>
+  <rect x="1605" y="900" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1815 900) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="300" y="915" width="15" height="30" fill="#000000"/>
+  <rect x="765" y="915" width="15" height="15" fill="#000000"/>
+  <rect x="825" y="915" width="15" height="15" fill="#000000"/>
+  <rect x="1140" y="915" width="15" height="15" fill="#000000"/>
+  <rect x="1335" y="915" width="15" height="30" fill="#000000"/>
+  <rect x="1440" y="915" width="45" height="15" fill="#000000"/>
+  <rect x="1530" y="915" width="15" height="45" fill="#000000"/>
+  <rect x="1635" y="915" width="15" height="15" fill="#000000"/>
+  <rect x="1905" y="915" width="15" height="15" fill="#000000"/>
+  <rect x="210" y="930" width="15" height="60" fill="#000000"/>
+  <rect x="315" y="930" width="15" height="15" fill="#000000"/>
+  <rect x="660" y="930" width="30" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1185 930) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1245" y="930" width="75" height="15" fill="#000000"/>
+  <rect x="1560" y="930" width="30" height="15" fill="#000000"/>
+  <rect x="1590" y="930" width="30" height="30" fill="#000000"/>
+  <rect x="30" y="945" width="15" height="15" fill="#000000"/>
+  <rect x="75" y="945" width="30" height="30" fill="#808080"/>
+  <rect x="660" y="945" width="30" height="15" fill="#000000"/>
+  <rect x="885" y="945" width="60" height="15" fill="#000000"/>
+  <rect x="1125" y="945" width="60" height="15" fill="#000000"/>
+  <rect x="1185" y="945" width="30" height="15" fill="#000000"/>
+  <rect x="1275" y="945" width="30" height="60" fill="#808080"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1320 945) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1695 945) scale(0.234375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1755" y="945" width="15" height="60" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1845 945) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="435" y="960" width="60" height="60" fill="#000000"/>
+  <rect x="930" y="960" width="30" height="30" fill="#000000"/>
+  <rect x="1155" y="960" width="60" height="45" fill="#000000"/>
+  <rect x="1245" y="960" width="15" height="30" fill="#000000"/>
+  <rect x="1260" y="960" width="15" height="15" fill="#000000"/>
+  <rect x="1320" y="960" width="45" height="30" fill="#000000"/>
+  <rect x="1770" y="960" width="15" height="60" fill="#000000"/>
+  <rect x="1815" y="960" width="15" height="45" fill="#000000"/>
+  <rect x="1845" y="960" width="15" height="15" fill="#000000"/>
+  <rect x="1905" y="960" width="15" height="15" fill="#000000"/>
+  <rect x="15" y="975" width="15" height="15" fill="#000000"/>
+  <rect x="375" y="975" width="30" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(540 975) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1440 975) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1470" y="975" width="60" height="60" fill="#000000"/>
+  <rect x="1800" y="975" width="15" height="15" fill="#000000"/>
+  <rect x="1905" y="975" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(270 990) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="495" y="990" width="45" height="45" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(600 990) scale(0.17578125)" fill-rule="evenodd" fill="#404040"/>
+  <rect x="660" y="990" width="30" height="30" fill="#000000"/>
+  <rect x="1245" y="990" width="15" height="30" fill="#000000"/>
+  <rect x="1350" y="990" width="15" height="15" fill="#000000"/>
+  <rect x="1425" y="990" width="45" height="15" fill="#000000"/>
+  <rect x="1560" y="990" width="15" height="15" fill="#000000"/>
+  <rect x="1800" y="990" width="15" height="15" fill="#000000"/>
+  <rect x="540" y="1005" width="15" height="15" fill="#000000"/>
+  <rect x="645" y="1005" width="15" height="15" fill="#000000"/>
+  <rect x="1005" y="1005" width="45" height="30" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1185 1005) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1275" y="1005" width="60" height="15" fill="#000000"/>
+  <rect x="1335" y="1005" width="30" height="30" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1740 1005) scale(0.1171875)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1785 1005) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="90" y="1020" width="15" height="15" fill="#000000"/>
+  <rect x="420" y="1020" width="45" height="15" fill="#000000"/>
+  <rect x="1305" y="1020" width="30" height="15" fill="#000000"/>
+  <rect x="1455" y="1020" width="15" height="15" fill="#000000"/>
+  <rect x="1545" y="1020" width="15" height="30" fill="#404040"/>
+  <rect x="1710" y="1020" width="15" height="30" fill="#000000"/>
+  <rect x="1890" y="1020" width="15" height="30" fill="#000000"/>
+  <rect x="600" y="1035" width="15" height="15" fill="#000000"/>
+  <rect x="975" y="1035" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(990 1035) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1035 1035) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1125" y="1035" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1170 1035) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1200" y="1035" width="15" height="45" fill="#000000"/>
+  <rect x="1215" y="1035" width="15" height="45" fill="#404040"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1320 1035) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1350" y="1035" width="15" height="15" fill="#000000"/>
+  <rect x="1695" y="1035" width="15" height="15" fill="#000000"/>
+  <rect x="1755" y="1035" width="15" height="15" fill="#000000"/>
+  <rect x="1905" y="1035" width="15" height="15" fill="#000000"/>
+  <rect x="285" y="1050" width="15" height="15" fill="#000000"/>
+  <rect x="465" y="1050" width="15" height="15" fill="#808080"/>
+  <rect x="480" y="1050" width="15" height="15" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(495 1050) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="735" y="1050" width="15" height="15" fill="#000000"/>
+  <rect x="795" y="1050" width="15" height="15" fill="#000000"/>
+  <rect x="855" y="1050" width="15" height="15" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(960 1050) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(975 1050) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1155" y="1050" width="30" height="30" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1185 1050) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1230" y="1050" width="30" height="15" fill="#000000"/>
+  <rect x="1260" y="1050" width="15" height="30" fill="#000000"/>
+  <rect x="1290" y="1050" width="15" height="30" fill="#000000"/>
+  <rect x="1305" y="1050" width="30" height="30" fill="#000000"/>
+  <rect x="1455" y="1050" width="15" height="30" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1530 1050) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 128 256 L 64 256 L 64 192 L 128 192 Z M 256 256 L 192 256 L 192 192 L 256 192 Z M 64 192 L 0 192 L 0 128 L 64 128 Z M 192 192 L 128 192 L 128 128 L 192 128 Z M 128 128 L 64 128 L 64 64 L 128 64 Z M 256 128 L 192 128 L 192 64 L 256 64 Z M 64 64 L 0 64 L 0 0 L 64 0 Z M 192 64 L 128 64 L 128 0 L 192 0 Z" transform="translate(1560 1050) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1830" y="1050" width="15" height="30" fill="#000000"/>
+  <rect x="1860" y="1050" width="15" height="30" fill="#000000"/>
+  <rect x="1875" y="1050" width="30" height="30" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(45 1065) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(330 1065) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="990" y="1065" width="15" height="15" fill="#C8C8C8"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1005 1065) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1185" y="1065" width="15" height="15" fill="#808080"/>
+  <path d="M 64 256 L 0 256 L 0 192 L 64 192 Z M 160 256 L 96 256 L 96 160 L 0 160 L 0 96 L 160 96 Z M 256 256 L 192 256 L 192 64 L 0 64 L 0 0 L 256 0 Z" transform="translate(1275 1065) scale(0.05859375)" fill-rule="evenodd" fill="#000000"/>
+  <rect x="1350" y="1065" width="15" height="15" fill="#404040"/>
+  <rect x="1380" y="1065" width="15" height="15" fill="#000000"/>
+  <rect x="1440" y="1065" width="15" height="15" fill="#000000"/>
+  <rect x="1560" y="1065" width="15" height="15" fill="#000000"/>
+</svg>
