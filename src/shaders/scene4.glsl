@@ -32,6 +32,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
   float g = uGlitchScale;
   float dt = clamp(iTimeDelta, 0.0, 0.1);
   float aspect = iResolution.x / iResolution.y;
+  float beat = uBeat * mix(1.0, 0.5, calm);
 
   vec2 center = vec2(0.5);
   float pull = 0.0;
@@ -59,10 +60,9 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
   float count = max(uFrameCount, 1.0);
   float layer = mod(uBeatCount, count);
   float feed = frameAt(coverUv(fragCoord), layer);
-  float stamp = 0.18 + uMid * 0.2 + uBeat * g * 0.7 + uBeat * 0.3;
-  vec3 ink = vec3(0.85, 0.95, 1.0) * feed * stamp;
+  float stamp = 0.2 + uMid * 0.25 + beat * g * 0.6 + beat * 0.3;
+  vec3 ink = mix(vec3(0.9, 0.95, 1.0), vec3(0.87, 1.0, 0.0), beat * 0.8) * feed * stamp;
 
   vec3 col = max(prev, ink);
-
   fragColor = vec4(col, 1.0);
 }

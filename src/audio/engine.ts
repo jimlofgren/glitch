@@ -23,6 +23,7 @@ export interface SongAudio {
   lastBeatTime: number
   lastSnapTime: number
   beatCount: number
+  snapCount: number
 }
 
 interface FluxTracker {
@@ -109,6 +110,7 @@ export class AudioEngine {
       lastBeatTime: 0,
       lastSnapTime: 0,
       beatCount: 0,
+      snapCount: 0,
     }
   }
 
@@ -219,6 +221,7 @@ export class AudioEngine {
     song.trebleFlux.average += (flux - song.trebleFlux.average) * (1 - Math.exp(-dt / FLUX_AVERAGE_WINDOW))
     if (isOnset) {
       song.lastSnapTime = now
+      song.snapCount += 1
       song.levels.snap = 1
     } else {
       song.levels.snap *= Math.exp(-dt / SNAP_DECAY)

@@ -1,3 +1,8 @@
+export interface LoadOptions {
+  invert?: boolean
+  text?: { cols: number; rows: number }
+}
+
 export class FrameArray {
   readonly texture: WebGLTexture
   readonly width: number
@@ -24,11 +29,13 @@ export class FrameArray {
     gl.texParameteri(gl.TEXTURE_2D_ARRAY, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE)
   }
 
-  async load(urls: string[], onError: (message: string) => void): Promise<void> {
+  async load(urls: string[], onError: (message: string) => void, options: LoadOptions = {}): Promise<void> {
     await Promise.all(
       urls.slice(0, this.layers).map(async (url, layer) => {
         try {
-          const pixels = await rasterize(url, this.width, this.height)
+          const pixels = options.text
+            ? await rasterizeText(url, this.width, this.height, options.text.cols, options.text.rows)
+            : await rasterize(url, this.width, this.height, options.invert === true)
           this.upload(layer, pixels)
         } catch (error) {
           onError(`Could not load ${url} (${error instanceof Error ? error.message : String(error)})`)
@@ -49,18 +56,53 @@ export class FrameArray {
   }
 }
 
-async function rasterize(url: string, width: number, height: number): Promise<Uint8Array> {
-  const image = new Image()
-  image.src = url
-  await image.decode()
+function createContext(width: number, height: number, background: string): CanvasRenderingContext2D {
   const canvas = document.createElement('canvas')
   canvas.width = width
   canvas.height = height
   const ctx = canvas.getContext('2d', { willReadFrequently: true })
   if (!ctx) throw new Error('2d context unavailable')
-  ctx.fillStyle = '#000'
+  ctx.fillStyle = background
   ctx.fillRect(0, 0, width, height)
-  ctx.drawImage(image, 0, 0, width, height)
+  return ctx
+}
+
+async function rasterize(url: string, width: number, height: number, invert: boolean): Promise<Uint8Array> {
+  const image = new Image()
+  image.src = url
+  await image.decode()
+  const ctx = createContext(width, height, invert ? '#fff' : '#000')
+  const fit = Math.min(width / image.naturalWidth, height / image.naturalHeight)
+  const drawWidth = image.naturalWidth * fit
+  const drawHeight = image.naturalHeight * fit
+  ctx.drawImage(image, (width - drawWidth) / 2, (height - drawHeight) / 2, drawWidth, drawHeight)
+  return readLuminance(ctx, width, height, invert)
+}
+
+async function rasterizeText(url: string, width: number, height: number, cols: number, rows: number): Promise<Uint8Array> {
+  const response = await fetch(url)
+  if (!response.ok) throw new Error(`HTTP ${response.status}`)
+  const text = await response.text()
+  const lines = text.replace(/\r/g, '').split('\n').slice(0, rows)
+  const ctx = createContext(width, height, '#000')
+  const fontSize = 16
+  const lineHeight = fontSize * 1.2
+  ctx.font = `${fontSize}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`
+  ctx.textBaseline = 'top'
+  ctx.fillStyle = '#fff'
+  const charWidth = ctx.measureText('M').width
+  ctx.scale(width / cols / charWidth, height / rows / lineHeight)
+  lines.forEach((line, row) => {
+    const clipped = line.slice(0, cols)
+    for (let col = 0; col < clipped.length; col++) {
+      const ch = clipped[col]
+      if (ch !== ' ') ctx.fillText(ch, col * charWidth, row * lineHeight + fontSize * 0.1)
+    }
+  })
+  return readLuminance(ctx, width, height, false)
+}
+
+function readLuminance(ctx: CanvasRenderingContext2D, width: number, height: number, invert: boolean): Uint8Array {
   const rgba = ctx.getImageData(0, 0, width, height).data
   const red = new Uint8Array(width * height)
   for (let y = 0; y < height; y++) {
@@ -68,7 +110,8 @@ async function rasterize(url: string, width: number, height: number): Promise<Ui
     const targetRow = (height - 1 - y) * width
     for (let x = 0; x < width; x++) {
       const i = (sourceRow + x) * 4
-      red[targetRow + x] = Math.min(255, Math.round(rgba[i] * 0.299 + rgba[i + 1] * 0.587 + rgba[i + 2] * 0.114))
+      const luminance = Math.min(255, Math.round(rgba[i] * 0.299 + rgba[i + 1] * 0.587 + rgba[i + 2] * 0.114))
+      red[targetRow + x] = invert ? 255 - luminance : luminance
     }
   }
   return red

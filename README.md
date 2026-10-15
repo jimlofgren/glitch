@@ -13,17 +13,23 @@ npm run dev
 Open http://localhost:5173, press the play button in the bottom-right corner,
 then scroll.
 
-## Swapping in your songs
+## Assets
 
-Audio lives in `public/audio/` as `song1.mp3` to `song5.mp3`. Different file
-names or formats (wav, m4a, ogg) work too: point `src` at them in
-`src/config.ts`. Only the song being played is streamed; once playback has
-started, the remaining songs are downloaded one at a time in page order and
-swapped in from memory, so scrolling ahead never waits on the network.
-A file that fails to load shows a red message at the top of the page.
+Everything lives under `src/assets/`, with deliberately meaningless names so
+nothing descriptive ends up in the bundle: audio is `audio/1.mp3` to `5.mp3`,
+frame sets are folders `frames/a` to `frames/e` (SVG or text files, numbered
+`000.svg` upwards). Song entries in `src/config.ts` refer to the audio file
+name and the frame folder, and the order of that list is the page order. Files are discovered with a glob and sorted, so
+after dropping new exports into a folder run `npm run frames` to renumber them.
+The build copies every asset to `dist/a/<hash>.<ext>`, so neither folder nor
+file names appear in the published site. The letter shapes for Mozayk uploads
+are in `shapes/` at the project root and are not deployed.
 
 Band levels are auto-normalized against a slowly decaying running peak, so
 quiet or ambient tracks still drive the visuals through the full 0 to 1 range.
+Only the song being played is streamed; once playback has started, the
+remaining songs are downloaded one at a time in page order and swapped in from
+memory, so scrolling ahead never waits on the network.
 
 ## Dropping in a Shadertoy shader
 
@@ -43,14 +49,18 @@ scanlines and grain, all scaled by `uBeat`.
 
 Compile errors show in a red overlay with line numbers relative to your code.
 
+## Titles
+
+Each song has a `title` in `src/config.ts` (dates work well). It is shown at
+the bottom-left and swaps whenever the active song changes.
+
 ## Mozayk frames
 
-Each song has its own folder of SVG frames under `public/svg/` (`song1`,
-`song2`, `song3`), named `mozayk-frame000.svg` upwards. Set the folder and
-frame count per song in `src/config.ts`. Frames are rasterized once at load
-time (luminance only) into a texture array and exposed to that song's shader as
-`uFrames` (a `sampler2DArray`, sample with `texture(uFrames, vec3(uv, layer)).r`)
-plus `uFrameCount`.
+A frame set is a folder under `src/assets/frames/` with SVGs that sort in
+order (`000.svg` upwards; `npm run frames` renumbers whatever is in there). Frames are rasterized once at
+load time (luminance only) into a texture array and exposed to that song's
+shader as `uFrames` (a `sampler2DArray`, sample with
+`texture(uFrames, vec3(uv, layer)).r`) plus `uFrameCount`.
 
 ## Node network (scene 2)
 
@@ -72,9 +82,17 @@ every shader receives in 0 to 1 screen space, or (-1, -1) when there is none.
 ## Feedback scenes
 
 A song with `feedback: true` renders into a ping-pong buffer and receives its
-own previous frame as `iChannel1` (screen resolution). Scenes 4 (smear) and
-5 (scanner) use it. Each song's slider value also reaches its shader as
-`uSlider` for kinds the JavaScript side does not handle (`trail`, `fade`).
+own previous frame as `iChannel1` (screen resolution). Scene 4 (smear) uses
+it. Each song's slider value also reaches its shader as `uSlider` for kinds the
+JavaScript side does not handle (`trail`, `zoom`).
+
+## ASCII frames
+
+A frame set with `text: { cols, rows }` loads plain text files instead of SVGs
+and rasterizes them with a monospace font so each character fills exactly one
+cell of a `cols` by `rows` grid. Scene 5 (night sky) uses the files in
+`src/assets/frames/e/`, 120 by 49 characters each; extra lines or columns
+are cropped. The shader treats the grid as star cells for twinkling.
 
 ## Sliders
 
@@ -112,5 +130,4 @@ from any subdirectory. `.github/workflows/deploy.yml` builds and publishes to
 GitHub Pages on every push to `main`: in the repository settings, set Pages to
 "GitHub Actions" as the source once and it takes care of the rest.
 
-`public/` (audio and SVG frames) is copied as-is into `dist/`, so never store
-originals in `dist/`; it is wiped on every build.
+`dist/` is wiped on every build, so never store originals there.

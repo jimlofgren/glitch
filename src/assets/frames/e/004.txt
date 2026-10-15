@@ -1,0 +1,109 @@
+                                                                              +                                       
+                                      *                                                                            '    
+                                              +                                                                       . 
+                                                                                                                        
+                            .                                                                                           
+               +                                                         .                  '                           
+                                                                                                         +              
+                                                                                                                        
+              '                                                                                                         
+                         +                ':.                                         +                                 
+                                            '::._                                                                     . 
+                                              '._)                                                  '  |                
+         .                  *                                                                         -+-               
+                                                                              o o                      |                
+                                                                                                                    o   
+                                                                                                                        
+                                                              .                                   +                     
+                                     .                            .                                '                    
+                                o                                '+                                                    .
+                                                                       '   .                                            
+                                                                                                                        
+ '                             '    .                                                                                   
+                    .-.                             +                                |                                  
+            |      (   )         .                                       *         - o -                                
+           -o-      `-'                  o                                           |                                  
+     .      |                                                           '                                               
+                                                           '                                                            
+        .                                                                                                               
+                                                                                        .                               
+                        '           +               o                                         +                         
+                                          '              +                                                              
+      +                          .                                                                   *      .           
+                                                                  .  '                                                  
+            .                 +                                                                                         
+                                        '                                  +                      '                     
+                               .                                                                                        
+                 '                                                                                                      
+                      .                                                            *                                    
+          '                                                                                                             
+                       +                     .                           .          .                                   
+                                                                                                                        
+                                                                                                                        
+                       '              .                                                                                 
+                                                         +                                             +                
+                                     .                                                        '                         
+                                                                                             +             +~~          
+ '                                                                        \          +                                  
+                                                                           \ .                                          
+                                                                            *                 .                         
+                                                                                                                        
+The ASCII Art generated from 'ASCII Night Sky Generator' is free to use for any purpose, including personal and commercial projects. No attribution is required. However, if you find the tool useful and would like to support us, we'd appreciate a link back or a mention to help spread the word!
+Features of ASCII Night Sky Generator
+Customizable Moon Phases: Select specific moon phases such as Waxing Crescent, Full Moon, or Waning Crescent, or let the generator randomize them for a natural look.
+Asteroid Customization: Choose the type of asteroids to display (Vertical, Small, or Big) and their direction (Left, Right, or Random) to create a personalized night sky.
+Big and Small Moon Options: Toggle between small and big moons for added variety and visual impact in your night sky.
+Custom Star Probabilities: Adjust the likelihood of different star types, such as dots, plus signs, and asterisks, to control the appearance of your sky.
+Width and Height Adjustment: Set the exact dimensions of your ASCII art canvas to create skies from compact to panoramic.
+Dynamic Rendering: Regenerate the entire night sky instantly whenever settings are updated, ensuring a seamless user experience.
+Fullscreen Mode: Work in fullscreen for a distraction-free creative experience (Premium feature).
+Export Options: Download your creation as a .TXT file, or export as an image (.PNG, .JPG, .GIF) with your chosen color theme. Premium users can also export to PDF and SVG.
+Retro Color Themes: Preview your night sky in classic styles like Commodore 64, DOS Blue, Terminal Amber, and more.
+Custom Object Count: Define the number of moons, stars, and asteroids to include in your night sky. Tailor the density and variety of objects to create anything from a sparse, minimalist scene to a bustling cosmic display.
+Acknowledgments and credits
+This project is built with JavaScript and Bootstrap, ensuring a high-quality, user-focused experience. We've carefully developed this tool without relying on external code libraries beyond what's mentioned, focusing on innovative and practical solutions. Our team takes pride in offering tools that are both sophisticated and easy to use, and we hope you find this one to be a valuable asset in your creative toolkit.
+Looking for more? Check out our ASCII tools!
+3D to ASCII Art
+Turn 3D shapes and models into unique ASCII artwork with depth, perspective, and style.
+ANSI Art Viewer
+View and explore ANSI art with full color support, formatting, and classic terminal styling.
+ASCII Art Analyzer
+Analyze ASCII art to get detailed statistics, character frequency, density maps, and more.
+ASCII Border Maker
+Create clean ASCII borders and frames for boxes, banners, and text in seconds!
+ASCII Divider Maker
+Create unique ASCII dividers to organize banners, art pieces, and more!
+ASCII Draw Studio
+Create, edit, and master the art of ASCII with this feature-packed drawing tool!
+ASCII Maze Generator
+Generate custom and unique mazes in ASCII art in just seconds!
+ASCII Pattern Maker
+Design and customize ASCII textures that fit perfectly into your creations.
+ASCII Validator
+Validate your creation before sharing, detect issues and keep everything readable.
+Case Converter
+Quickly switch between UPPERCASE, lowercase, Sentence case, and more in one click!
+Character Counter
+Count characters, words, and lines with real-time per-line statistics and social media limits.
+Image to ASCII Art
+Transform your photos into stunning ASCII masterpieces in seconds!
+Text Cleaner
+Remove unwanted characters, fix spacing, and normalize formatting for clean text.
+Text to ASCII Art
+Convert any text into amazing ASCII art for banners, signatures, and more!
+Webcam to ASCII Art
+See yourself in ASCII live! Turn your webcam feed into real-time art.
+Word Counter
+Count words instantly and analyze readability, frequency, and hidden characters in real time.
+The ASCII art of this website has been created by many different artists and credit has been given where the artist is known.
+If you use ASCII artwork from here, please do not remove the artists name/initials if they are present.
+About ASCII Art Archive
+Acknowledgments
+What’s New
+Link To Us
+Cookie policy
+Privacy policy
+Terms of Use
+Consent
+Copyright © 2026 Injosoft. All Rights Reserved.
+ Be kind!

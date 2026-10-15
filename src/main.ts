@@ -1,7 +1,7 @@
 import './style.css'
+import { inject } from '@vercel/analytics'
 import {
   frameResolution,
-  frameUrls,
   glitch,
   maxDevicePixelRatio,
   network,
@@ -15,6 +15,7 @@ import { AudioEngine, type Levels } from './audio/engine'
 import { AudioTexture, AUDIO_TEXTURE_HEIGHT, AUDIO_TEXTURE_WIDTH } from './audio/texture'
 import { Renderer } from './gl/renderer'
 import { FrameArray } from './gl/frameArray'
+import { frameUrls } from './assets'
 import { FeedbackBuffer } from './gl/feedback'
 import { ShaderProgram } from './gl/shaderProgram'
 import { NodeNetwork } from './sim/nodeNetwork'
@@ -82,18 +83,18 @@ function compile(name: string, source: string): ShaderProgram | null {
 }
 
 const frameSets = new Map<string, FrameArray>()
-function frameSet(dir: string, count: number): FrameArray {
-  let set = frameSets.get(dir)
+function frameSet(name: string): FrameArray {
+  let set = frameSets.get(name)
   if (!set) {
-    set = new FrameArray(gl, frameResolution.width, frameResolution.height, count)
-    frameSets.set(dir, set)
+    set = new FrameArray(gl, frameResolution.width, frameResolution.height, frameUrls(name).length)
+    frameSets.set(name, set)
   }
   return set
 }
 
 const scenes: Scene[] = songs.map((song, i) => ({
   program: compile(`scene ${i + 1}`, song.shader),
-  frames: frameSet(song.frames.dir, song.frames.count),
+  frames: frameSet(song.frames.set),
   feedback: song.feedback ? new FeedbackBuffer(gl) : null,
   audioTexture: new AudioTexture(gl),
   time: 0,
@@ -105,9 +106,10 @@ const post = compile('post', postSource)
 const loaded = new Set<string>()
 void songs.reduce(async (previous, song) => {
   await previous
-  if (song.frames.count === 0 || loaded.has(song.frames.dir)) return
-  loaded.add(song.frames.dir)
-  await frameSet(song.frames.dir, song.frames.count).load(frameUrls(song.frames), reportProblem)
+  const urls = frameUrls(song.frames.set)
+  if (urls.length === 0 || loaded.has(song.frames.set)) return
+  loaded.add(song.frames.set)
+  await frameSet(song.frames.set).load(urls, reportProblem, { invert: song.frames.invert, text: song.frames.text })
 }, Promise.resolve())
 
 const nodeNetwork = new NodeNetwork(network.clusters, network.nodesPerCluster)
@@ -190,6 +192,7 @@ function setLevelUniforms(program: ShaderProgram, index: number): void {
   program.set1f('uBeat', levels.beat)
   program.set1f('uBeatCount', song?.beatCount ?? 0)
   program.set1f('uSnap', levels.snap)
+  program.set1f('uSnapCount', song?.snapCount ?? 0)
 }
 
 function bindBlack(from: number): void {
@@ -262,6 +265,7 @@ function updateHud(activeIndex: number, levels: Levels): void {
   if (activeIndex !== hudIndex) {
     hudIndex = activeIndex
     hud.setSlider(songs[activeIndex].slider, sliderValues[activeIndex])
+    hud.showTitle(songs[activeIndex].title)
   }
   if (!engine) return
   const audible = engine.isPlaying && !engine.isMuted
@@ -392,5 +396,7 @@ document.addEventListener('visibilitychange', () => {
 })
 
 if (import.meta.env.DEV) Object.assign(window, { stepFrame: () => renderFrame(performance.now()) })
+
+if (import.meta.env.PROD) inject()
 
 startLoop()

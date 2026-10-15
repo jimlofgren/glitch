@@ -1,7 +1,15 @@
+const vec2 GRID = vec2(120.0, 49.0);
+
 float hash21(vec2 p) {
   vec3 p3 = fract(vec3(p.xyx) * 0.1031);
   p3 += dot(p3, p3.yzx + 33.33);
   return fract((p3.x + p3.y) * p3.z);
+}
+
+vec2 hash22(vec2 p) {
+  vec3 p3 = fract(vec3(p.xyx) * vec3(0.1031, 0.1030, 0.0973));
+  p3 += dot(p3, p3.yzx + 33.33);
+  return fract((p3.xx + p3.yz) * p3.zy);
 }
 
 vec2 coverUv(vec2 fragCoord) {
@@ -16,50 +24,52 @@ vec2 coverUv(vec2 fragCoord) {
   return uv;
 }
 
-float frameAt(vec2 uv, float layer) {
-  return texture(uFrames, vec3(fract(uv), layer)).r;
+float segment(vec2 p, vec2 a, vec2 b) {
+  vec2 pa = p - a;
+  vec2 ba = b - a;
+  float h = clamp(dot(pa, ba) / max(dot(ba, ba), 1e-6), 0.0, 1.0);
+  return length(pa - ba * h);
 }
 
-const vec3 BEAM = vec3(0.4, 0.9, 1.0);
-
 void mainImage(out vec4 fragColor, in vec2 fragCoord) {
-  vec2 uv = fragCoord / iResolution.xy;
   float calm = uReducedMotion;
   float g = uGlitchScale;
-  float dt = clamp(iTimeDelta, 0.0, 0.1);
-  float px = 1.0 / iResolution.y;
+  float aspect = iResolution.x / iResolution.y;
+  float beat = uBeat * mix(1.0, 0.5, calm);
 
-  float sweep = fract(iTime * mix(0.06, 0.03, calm) + uBeatCount * 0.37);
-  float scanY = 1.0 - sweep;
-  if (uPointer.x >= 0.0) scanY = uPointer.y;
-
-  float tau = mix(0.4, 14.0, uSlider);
-  float decay = exp(-dt / tau);
-  vec4 stored = texture(iChannel1, uv);
-  vec3 prev = max(stored.rgb - stored.a * BEAM, 0.0);
-  prev = max(prev * decay - 0.0012, 0.0);
+  vec2 focus = vec2(0.5);
+  if (uPointer.x >= 0.0) focus = mix(focus, uPointer, 0.35);
+  float zoom = mix(1.0, 2.6, uSlider);
+  vec2 uv = coverUv(fragCoord);
+  uv = (uv - focus) / zoom + focus;
+  uv.x += iTime * 0.003 * (1.0 - calm);
 
   float count = max(uFrameCount, 1.0);
-  float layer = mod(uBeatCount, count);
-  float width = px * (3.0 + uMid * 12.0);
-  float dist = abs(uv.y - scanY);
-  float printing = 1.0 - smoothstep(0.0, width, dist);
+  float layer = mod(uBeatCount + floor(iTime / 12.0), count);
+  float ch = texture(uFrames, vec3(fract(uv), layer)).r;
 
-  vec2 fuv = coverUv(fragCoord);
-  float tick = floor(iTime * 12.0);
-  float misprint = step(1.0 - uSnap * g * 0.8, hash21(vec2(floor(uv.y / (px * 4.0)), tick)));
-  fuv.x += misprint * (hash21(vec2(tick, 2.0)) - 0.5) * 0.3;
-  float feed = frameAt(fuv, layer);
+  vec2 cell = floor(uv * GRID);
+  float seed = hash21(cell + layer * 3.0);
+  float rate = (0.6 + seed * 2.5) * (1.0 + uTreble * 2.0);
+  float twinkle = 0.55 + 0.45 * sin(iTime * rate + seed * 6.2831);
+  twinkle = mix(1.0, twinkle, 1.0 - 0.6 * calm);
+  float bright = ch * mix(0.6, 1.3, twinkle) * (1.0 + beat * 0.7);
+  vec3 starColor = mix(vec3(0.72, 0.84, 1.0), vec3(1.0, 0.9, 0.7), step(0.82, seed));
 
-  vec3 paper = vec3(0.92, 0.9, 0.84);
-  vec3 ink = paper * feed * (0.7 + uBass * 0.5);
-  ink = mix(ink, vec3(1.0, 0.25, 0.1) * feed, misprint * 0.8);
+  float sky = coverUv(fragCoord).y;
+  vec3 col = mix(vec3(0.02, 0.03, 0.09), vec3(0.0, 0.0, 0.01), sky);
+  col += (hash21(fragCoord + iTime) - 0.5) * 0.01;
+  col += starColor * bright;
 
-  vec3 printed = max(prev, ink * printing);
+  vec2 p = (fragCoord / iResolution.xy) * vec2(aspect, 1.0);
+  vec2 start = vec2(0.15 + hash21(vec2(uSnapCount, 1.0)) * 0.7, 0.45 + hash21(vec2(uSnapCount, 2.0)) * 0.5) * vec2(aspect, 1.0);
+  vec2 dir = normalize(vec2(-0.8 - hash21(vec2(uSnapCount, 3.0)) * 0.4, -0.45));
+  float travel = (1.0 - uSnap) * 0.35;
+  vec2 head = start + dir * travel;
+  float streak = 1.0 - smoothstep(0.0, 0.004, segment(p, head - dir * 0.12, head));
+  float tail = 1.0 - smoothstep(0.0, 0.015, segment(p, head - dir * 0.12, head));
+  float alive = step(0.03, uSnap) * g * (1.0 - calm);
+  col += (streak + tail * 0.25) * uSnap * alive * vec3(0.9, 0.95, 1.0);
 
-  float line = 1.0 - smoothstep(0.0, px * 1.5, dist);
-  float glow = exp(-dist / (px * 24.0)) * 0.05 * (1.0 + uBass);
-  float beam = clamp(line * (0.6 + uTreble * 0.4) + glow, 0.0, 1.0);
-
-  fragColor = vec4(printed + beam * BEAM, beam);
+  fragColor = vec4(col, 1.0);
 }

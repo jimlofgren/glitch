@@ -37,6 +37,7 @@ uniform float uGrain;
 uniform float uMix;
 uniform int uMode;
 uniform float uSnap;
+uniform float uSnapCount;
 uniform float uTouch;
 uniform float uColor;
 uniform float uSlider;

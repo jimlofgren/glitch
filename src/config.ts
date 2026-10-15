@@ -3,15 +3,18 @@ import scene2 from './shaders/scene2.glsl?raw'
 import scene3 from './shaders/scene3.glsl?raw'
 import scene4 from './shaders/scene4.glsl?raw'
 import scene5 from './shaders/scene5.glsl?raw'
+import { audioUrl } from './assets'
 
 export interface FrameSet {
-  dir: string
-  count: number
+  set: string
+  invert?: boolean
+  text?: { cols: number; rows: number }
 }
 
-export type SliderKind = 'color' | 'filter' | 'size' | 'trail' | 'fade'
+export type SliderKind = 'color' | 'filter' | 'size' | 'trail' | 'zoom'
 
 export interface SongConfig {
+  title: string
   src: string
   shader: string
   frames: FrameSet
@@ -26,19 +29,20 @@ export const sliderDefaults: Record<SliderKind, number> = {
   filter: 0,
   size: 0.5,
   trail: 0.6,
-  fade: 0.5,
+  zoom: 0.2,
 }
 
 export type TransitionMode = 'crossfade' | 'dissolve' | 'glitch'
 
-const base = import.meta.env.BASE_URL
+
+export const sky: FrameSet = { set: 'e', text: { cols: 120, rows: 49 } }
 
 export const songs: SongConfig[] = [
-  { src: `${base}audio/song3.mp3`, shader: scene3, frames: { dir: 'svg/song3', count: 0 }, slider: 'color', pointerGlitch: true },
-  { src: `${base}audio/song1.mp3`, shader: scene1, frames: { dir: 'svg/song1', count: 23 }, slider: 'filter' },
-  { src: `${base}audio/song2.mp3`, shader: scene2, frames: { dir: 'svg/song2', count: 16 }, slider: 'size', pointerHunt: true },
-  { src: `${base}audio/song4.mp3`, shader: scene4, frames: { dir: 'svg/song1', count: 23 }, slider: 'trail', feedback: true },
-  { src: `${base}audio/song5.mp3`, shader: scene5, frames: { dir: 'svg/song2', count: 16 }, slider: 'fade', feedback: true },
+  { title: 'THIS_JIM_26_05_11', src: audioUrl('5.mp3'), shader: scene5, frames: sky, slider: 'zoom' },
+  { title: 'THIS_JIM_26_08_24', src: audioUrl('1.mp3'), shader: scene3, frames: { set: 'a' }, slider: 'color', pointerGlitch: true },
+  { title: 'THIS_JIM_26_10_15', src: audioUrl('2.mp3'), shader: scene1, frames: { set: 'b' }, slider: 'filter' },
+  { title: 'THIS_JIM_26_07_31', src: audioUrl('3.mp3'), shader: scene2, frames: { set: 'c' }, slider: 'size', pointerHunt: true },
+  { title: 'THIS_JIM_26_05_18', src: audioUrl('4.mp3'), shader: scene4, frames: { set: 'd' }, slider: 'trail', feedback: true },
 ]
 
 export const transitionMode: TransitionMode = 'glitch'
@@ -55,9 +59,7 @@ export const glitch = {
   defaultScale: 0.5,
 }
 
-export function frameUrls(set: FrameSet): string[] {
-  return Array.from({ length: set.count }, (_, i) => `${base}${set.dir}/mozayk-frame${String(i).padStart(3, '0')}.svg`)
-}
+
 
 export const frameResolution = { width: 1280, height: 720 }
 

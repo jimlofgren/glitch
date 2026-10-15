@@ -164,6 +164,35 @@ body {
   fill: var(--fg);
 }
 
+#title {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  z-index: 10;
+  line-height: 1;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 56px;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  color: var(--fg);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#title.show {
+  opacity: 0.75;
+  transition-duration: 0.3s;
+}
+
+@media (max-width: 760px) {
+  #title {
+    display: none;
+  }
+}
+
 #fps {
   position: fixed;
   left: 12px;
