@@ -16,7 +16,6 @@ export type SliderKind = 'color' | 'filter' | 'size' | 'trail' | 'zoom'
 export interface SongConfig {
   title: string
   src: string
-  start?: number
   shader: string
   frames: FrameSet
   slider?: SliderKind
@@ -40,10 +39,10 @@ export const sky: FrameSet = { set: 'e', text: { cols: 120, rows: 49 } }
 
 export const songs: SongConfig[] = [
   { title: 'THIS_JIM_26_05_11', src: audioUrl('5.mp3'), shader: scene5, frames: sky, slider: 'zoom' },
-  { title: 'THIS_JIM_26_08_24', src: audioUrl('1.mp3'), start: 7, shader: scene3, frames: { set: 'a' }, slider: 'color', pointerGlitch: true },
+  { title: 'THIS_JIM_26_08_24', src: audioUrl('1.mp3'), shader: scene3, frames: { set: 'a' }, slider: 'color', pointerGlitch: true },
   { title: 'THIS_JIM_26_10_15', src: audioUrl('2.mp3'), shader: scene1, frames: { set: 'b' }, slider: 'filter' },
   { title: 'THIS_JIM_26_07_31', src: audioUrl('3.mp3'), shader: scene2, frames: { set: 'c' }, slider: 'size', pointerHunt: true },
-  { title: 'THIS_JIM_26_05_18', src: audioUrl('4.mp3'), start: 16, shader: scene4, frames: { set: 'd' }, slider: 'trail', feedback: true },
+  { title: 'THIS_JIM_26_05_18', src: audioUrl('4.mp3'), shader: scene4, frames: { set: 'd' }, slider: 'trail', feedback: true },
 ]
 
 export const transitionMode: TransitionMode = 'glitch'

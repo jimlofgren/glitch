@@ -355,7 +355,7 @@ function startLoop(): void {
 
 async function togglePlayback(): Promise<void> {
   if (!engine) {
-    engine = new AudioEngine(songs.map((song) => ({ src: song.src, start: song.start })), reportProblem)
+    engine = new AudioEngine(songs.map((song) => song.src), reportProblem)
     if (import.meta.env.DEV) Object.assign(window, { engine })
     hud.setIdle(false)
     songs.forEach((_, i) => applySlider(i))
