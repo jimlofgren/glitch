@@ -117,6 +117,17 @@ which renders one frame even when the tab is in the background.
 - `scrollDamping`: higher is snappier scroll smoothing
 - `maxDevicePixelRatio`: DPR cap for performance
 
+## Auto pointer
+
+With `autoPointer.enabled` in `src/config.ts`, a virtual pointer wanders the
+screen whenever the mouse has been still for `idleSeconds`, so every pointer
+effect keeps running on its own. Moving the mouse takes over immediately.
+
+## Minimal HUD
+
+`minimalHud` in `src/config.ts` hides the title, both sliders and the level
+bars, leaving only the play button. Useful for recording clean clips.
+
 ## Deep links
 
 `#1` to `#5` in the URL open the page on that song, for example

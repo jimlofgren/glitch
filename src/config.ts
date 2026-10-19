@@ -63,6 +63,13 @@ export const glitch = {
 
 export const frameResolution = { width: 1280, height: 720 }
 
+export const minimalHud = false
+
+export const autoPointer = {
+  enabled: true,
+  idleSeconds: 3,
+}
+
 export const network = {
   clusters: 1,
   nodesPerCluster: 8,

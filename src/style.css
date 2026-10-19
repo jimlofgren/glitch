@@ -236,3 +236,10 @@ body {
 [hidden] {
   display: none !important;
 }
+
+.minimal #slider,
+.minimal #glitch,
+.minimal #levels,
+.minimal #title {
+  display: none;
+}

@@ -1,9 +1,11 @@
 import './style.css'
 import { inject } from '@vercel/analytics'
 import {
+  autoPointer,
   frameResolution,
   glitch,
   maxDevicePixelRatio,
+  minimalHud,
   network,
   scrollDamping,
   sliderDefaults,
@@ -21,7 +23,7 @@ import { ShaderProgram } from './gl/shaderProgram'
 import { NodeNetwork } from './sim/nodeNetwork'
 import { ScrollTracker } from './scroll/scroll'
 import { Hud } from './ui/hud'
-import { Pointer } from './ui/pointer'
+import { Pointer, wander, type Point } from './ui/pointer'
 import { element } from './ui/dom'
 import { formatShaderErrors, reportProblem } from './ui/problems'
 import transitionSource from './gl/transition.glsl?raw'
@@ -48,6 +50,7 @@ const TRANSITION_MODES: Record<typeof transitionMode, number> = { crossfade: 0, 
 const SILENT: Levels = { bass: 0, mid: 0, treble: 0, beat: 0, snap: 0 }
 
 const hud = new Hud()
+document.body.classList.toggle('minimal', minimalHud)
 const fallback = element<HTMLElement>('fallback')
 const fpsLabel = element<HTMLElement>('fps')
 const sectionsRoot = element<HTMLElement>('sections')
@@ -122,6 +125,7 @@ const screenChannelResolution = new Float32Array(12)
 const channelTime = new Float32Array(4)
 
 let engine: AudioEngine | null = null
+let activePointer: Point | null = null
 let colorAmount = 0
 let glitchScale = glitch.defaultScale
 let hudIndex = -1
@@ -174,7 +178,7 @@ function setCommonUniforms(program: ShaderProgram, scene: Scene | null, sceneInd
   program.set1f('uColor', colorAmount)
   program.set1f('uSlider', sliderValues[sceneIndex])
   program.set1f('uTouch', nodeNetwork.touch)
-  program.set2f('uPointer', pointer.hover?.x ?? -1, pointer.hover?.y ?? -1)
+  program.set2f('uPointer', activePointer?.x ?? -1, activePointer?.y ?? -1)
   program.set1f('uPointerFocus', ctx.pointerFocus)
   program.set4fv('uBoxes', nodeNetwork.boxes)
   program.set1i('uBoxCount', nodeNetwork.clusterCount)
@@ -310,13 +314,15 @@ function renderFrame(now: number): void {
   }
   const activeSong = engine?.songs[activeIndex]
   const levels = activeSong?.levels ?? SILENT
+  const idle = now - pointer.lastMove > autoPointer.idleSeconds * 1000
+  activePointer = autoPointer.enabled && idle ? wander(globalTime * (reducedMotion.matches ? 0.4 : 1)) : pointer.hover
   nodeNetwork.update(
     dt,
     levels,
     activeSong?.beatCount ?? 0,
     renderer.width / renderer.height,
     reducedMotion.matches,
-    pointer.hover,
+    activePointer,
     songs[activeIndex].pointerHunt === true,
   )
 
