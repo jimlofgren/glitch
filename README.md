@@ -117,6 +117,12 @@ which renders one frame even when the tab is in the background.
 - `scrollDamping`: higher is snappier scroll smoothing
 - `maxDevicePixelRatio`: DPR cap for performance
 
+## Deep links
+
+`#1` to `#5` in the URL open the page on that song, for example
+`https://example.com/#4`. The hash follows along as you scroll, so the address
+bar always links to the song on screen.
+
 ## Controls
 
 - Space or the corner button: play/pause

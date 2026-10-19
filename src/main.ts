@@ -261,11 +261,23 @@ function renderPost(sourceIndex: number, sceneIndex: number, ctx: FrameContext):
   renderer.draw()
 }
 
+function songFromHash(): number | null {
+  const number = Number(window.location.hash.slice(1))
+  return Number.isInteger(number) && number >= 1 && number <= songs.length ? number - 1 : null
+}
+
+function scrollToSong(index: number): void {
+  const sectionHeight = document.documentElement.scrollHeight / songs.length
+  window.scrollTo(0, sectionHeight * (index + 0.2))
+}
+
 function updateHud(activeIndex: number, levels: Levels): void {
   if (activeIndex !== hudIndex) {
     hudIndex = activeIndex
     hud.setSlider(songs[activeIndex].slider, sliderValues[activeIndex])
     hud.showTitle(songs[activeIndex].title)
+    const hash = `#${activeIndex + 1}`
+    if (window.location.hash !== hash) window.history.replaceState(null, '', hash)
   }
   if (!engine) return
   const audible = engine.isPlaying && !engine.isMuted
@@ -398,5 +410,13 @@ document.addEventListener('visibilitychange', () => {
 if (import.meta.env.DEV) Object.assign(window, { stepFrame: () => renderFrame(performance.now()) })
 
 if (import.meta.env.PROD) inject()
+
+window.history.scrollRestoration = 'manual'
+window.addEventListener('hashchange', () => {
+  const index = songFromHash()
+  if (index !== null && index !== hudIndex) scrollToSong(index)
+})
+const initialSong = songFromHash()
+if (initialSong !== null) scrollToSong(initialSong)
 
 startLoop()
